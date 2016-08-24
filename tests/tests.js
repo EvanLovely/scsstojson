@@ -1,12 +1,12 @@
 /* global describe, it */
-const fs = require('fs');
-const assert = require('assert');
-const scssToJson = require('../');
+var fs = require('fs');
+var assert = require('assert');
+var scssToJson = require('../');
 
-describe('it', () => {
+describe('it', function() {
   console.log(process.cwd());
-  it('works', () => {
-    const expected = require('./expected.json');
+  it('works', function() {
+    var expected = require('./expected.json');
     var items = [
       {
         "src": "tests/_colors.scss",
