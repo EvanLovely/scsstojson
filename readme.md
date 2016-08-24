@@ -4,12 +4,12 @@ Scans `*.scss` files and turns the information into JSON. Very useful with [Patt
 
 ## Install
 
-    npm install --save scss-to-json
+    npm install --save scsstojson
 
 ## Usage
 
 ```js
-var scssToJson = require('scss-to-json');
+var scssToJson = require('scsstojson');
 
 var items = [
   {
