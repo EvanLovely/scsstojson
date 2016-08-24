@@ -1,5 +1,6 @@
 'use strict';
-var fs = require('fs');
+var fs = require('fs-extra');
+var path = require('path');
 
 function compile(items, options, done) {
   var options = options || {};
@@ -25,6 +26,7 @@ function compile(items, options, done) {
       });
     }
 
+    fs.mkdirs(path.parse(pair.dest).dir);
     fs.writeFileSync(pair.dest, JSON.stringify({
       items: varsAndValues,
       meta: {

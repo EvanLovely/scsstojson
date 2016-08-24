@@ -17,5 +17,8 @@
   "license": "ISC",
   "devDependencies": {
     "mocha": "^3.0.2"
+  },
+  "dependencies": {
+    "fs-extra": "^0.30.0"
   }
 }
