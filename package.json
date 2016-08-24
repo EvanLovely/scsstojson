@@ -1,6 +1,6 @@
 {
   "name": "scsstojson",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Scans *.scss files and turns the information into JSON. Very useful with Pattern Lab as you can auto-matically update your styleguide with your styles.",
   "main": "index.js",
   "scripts": {
