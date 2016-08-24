@@ -1,0 +1,67 @@
+{
+  "items": [
+    {
+      "name": "$c-gray--lightest",
+      "value": "hsl(0, 0%, 87%)",
+      "comment": ""
+    },
+    {
+      "name": "$c-gray--lighter",
+      "value": "hsl(0, 0%, 74%)",
+      "comment": ""
+    },
+    {
+      "name": "$c-gray--light",
+      "value": "hsl(0, 0%, 60%)",
+      "comment": ""
+    },
+    {
+      "name": "$c-gray",
+      "value": "hsl(0, 0%, 48%)",
+      "comment": ""
+    },
+    {
+      "name": "$c-gray--dark",
+      "value": "hsl(0, 0%, 40%)",
+      "comment": "Favorite Gray"
+    },
+    {
+      "name": "$c-gray--darker",
+      "value": "hsl(0, 0%, 26%)",
+      "comment": ""
+    },
+    {
+      "name": "$c-gray--darkest",
+      "value": "hsl(0, 0%, 13%)",
+      "comment": ""
+    },
+    {
+      "name": "$c-blue",
+      "value": "hsl(193, 79%, 42%)",
+      "comment": "Primary Color"
+    },
+    {
+      "name": "$c-green",
+      "value": "hsl(89, 46%, 16%)",
+      "comment": "Secondary Color"
+    },
+    {
+      "name": "$c-orange",
+      "value": "hsl(18, 73%, 53%)",
+      "comment": ""
+    },
+    {
+      "name": "$c-yellow",
+      "value": "hsl(43, 100%, 74%)",
+      "comment": ""
+    },
+    {
+      "name": "$c-orange--light",
+      "value": "hsl(31, 98%, 70%)",
+      "comment": ""
+    }
+  ],
+  "meta": {
+    "description": "To add to these items, use Sass variables that start with <code>$c-</code> in <code>tests/_colors.scss</code>"
+  }
+}

@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- '0.12'
+- '4'
+- '6'
+deploy:
+  provider: npm
+  email: evanlovely@gmail.com
+  api_key:
+    secure: qUkUrDKsx34Xx0sg4aMe7WHdrZ/toZKR2fDvaeRvgVgW9yCNCyHvmdvSRiijCkkJjE8krTgZzpLTyGcKS9f4xYA4l8kdNhAJMNd/qDtiR2cb7/25JYVPiNUZJQ57LqDNQH5GtPkt+3PhbhdkhXdYn+w0VzBTy8DRCb3x2/LgmLfyA3MHX9QanWhA5qsKsmaKfDfMfMGxAytOjEhB2/nczEqakahxiWUBkrFzygzCvYU8Nh3dV306K8Jx8jMfaXBsGvk8iTCUKyansUlQnXJLkhkhNh3Gemnl5D9gygOnAhkiwuZfFr6kycEAve8V8aRa6yF5LG9jzlvEuhMgSUowZztZ7FOuuQAE39Apk1/XQv+c08QdBeChkyhg+TtWFXlnk5S08PsDm2oknoRc3eHt98+Q6xAo/u1PQdTciw4I+hXZAZhU59rLcuVZqMPpFNASclmL0m1kOmpE+3HRMinLdgl8H04jXvYk8v42im/trG6Ga1jzqCs29KouBHpIuh2rJbgW2z75xorWiD+ZEntXcSgne0fUJr06v1Khb/wc0GqKuVXWt/jRRaxR0aCB+YSm84s1WCmlN6ignyF6zzZUYRVuAhmK12Z3YEI93FwITHsyq1UEH6US9JyPurL81jMjDLLJJLrBqL13VVzY48EDq1hO/cXmAhU+BI0cD51QUN0=
+  on:
+    tags: true
+    repo: EvanLovely/scss-to-json

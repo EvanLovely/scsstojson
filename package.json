@@ -1,0 +1,21 @@
+{
+  "name": "scss-to-json",
+  "version": "1.0.0",
+  "description": "Scans `*.scss` files and turns the information into JSON. Very useful with [Pattern Lab](http://patternlab.io) as you can auto-matically update your styleguide with your styles.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/tests.js"
+  },
+  "keywords": [
+    "pattern-lab",
+    "scss",
+    "json",
+    "utilities",
+    "evans-utilities"
+  ],
+  "author": "Evan Lovely",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.0.2"
+  }
+}
