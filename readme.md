@@ -147,3 +147,6 @@ And then you can have this as your Twig Pattern Lab pattern file right next to t
 
 Enjoy!!
 
+# Ways to use
+
+- Pattern Lab node plugin: [`plugin-node-scsstojson`](https://github.com/cloudsociety/plugin-node-scsstojson)
